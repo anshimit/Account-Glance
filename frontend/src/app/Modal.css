@@ -1,0 +1,49 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 4px;
+    position: relative;
+    display: flexbox;
+  }
+
+  .open-modal-button {
+    padding: 10px 20px; /* Adjusts the space inside the button */
+    font-size: 16px; /* Sets the font size */
+    border-radius: 8px; /* Adds rounded corners */
+    border: none; /* Removes the border */
+    background-color: #007bff; /* Sets the background color */
+    color: white; /* Sets the text color */
+    cursor: pointer; /* Changes the cursor to a pointer on hover */
+    margin-top: 20px; /* Adds space above the button */
+    margin-bottom: 10px; /* Adds space below the button */
+    display: block; /* Ensures the button is a block-level element */
+    width: fit-content; /* Adjusts the button width to fit the content */
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    top: 10px;
+    right: 10px;
+    background: none;
+    color: black;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  

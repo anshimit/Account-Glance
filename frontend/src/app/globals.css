@@ -1,0 +1,197 @@
+.app {
+  overflow: auto;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  scroll-padding-top: 30px
+}
+
+.header {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.account-flags {
+  width: 100%;
+  max-width: 100%;
+  /* overflow-y: auto; */
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#add-flags {
+  margin-top: 10px;
+  padding: 10px;
+  align-items: right;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f6f5f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #1c5698;
+  color: #fff;
+}
+
+.data-container {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.master-account {
+  font-size: 14px;
+  margin: 10px;
+  color: #1a1818;
+}
+
+.master-id {
+  color: #111010;
+  font-weight: bold;
+}
+
+.filter {
+  margin-bottom: 10px;
+}
+
+.flag {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e5e5eb;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.flag-account-status {
+  font-size: 16px;
+  border-radius: 1pt;
+  font-weight: bold;
+  color: rgb(40, 44, 40);
+  border-radius: 8px;
+  background-color: rgb(211, 202, 235);
+  padding: 8px;
+}
+
+.flag-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #202021e1;
+}
+
+.flag-value {
+  font-size: 18px;
+  border-radius: 1pt;
+  font-weight: normal ;
+  color: rgb(40, 44, 40);
+  border-radius: 8px;
+  background-color: rgb(197, 196, 202);
+  background-clip: padding-box;
+  padding: 6px;
+}
+
+.show-bill-accounts-button {
+  margin-top: -10px;
+  padding: 10px 10px;
+  font-size: 16px;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  border-radius: 4px;
+  background-color: #191c20;
+  color: #fff;
+}
+
+.show-bill-accounts-button:hover {
+  background-color: gray;
+}
+
+.search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Styling for the search bar */
+.search-bar {
+  position: relative; /* Position relative for absolute positioning of icon */
+  width: 100%;
+  max-width: 600px; /* Set a max-width to prevent stretching */
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc; /* Border around the input and button */
+  border-radius: 4px; /* Rounded corners for the input and button */
+  overflow: hidden; /* Ensure the button doesn't overflow */
+}
+
+/* Styling for the search input field */
+.search-input {
+  width: 100%;
+  padding: 12px 15px; /* Top and bottom padding of 12px, left and right padding of 15px */
+  border: none; /* Remove default border */
+  outline: none; /* Remove outline on focus */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 16px; /* Adjust font size for a more professional look */
+  text-align: center;
+}
+
+.search-input::placeholder {
+  color: #aaa; /* Placeholder text color */
+}
+
+.status-wip {
+  color: black;
+  background-color: orange;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.status-active {
+  color: black;
+  background-color: rgb(31, 179, 31);
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+}
+
+.status-inactive {
+  color: black;
+  background-color: red;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 10px;
+}

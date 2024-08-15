@@ -1,0 +1,179 @@
+.analysis-section {
+  width: 100%;
+}
+
+.analysis-note {
+  background-color: #ffeb3b;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.bill-flag {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #e5e5eb;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.bill-flag .ship-to-flag select {
+  flex-grow: 1; /* Allow select to fill the space */
+  padding: 6px 10px; /* Padding inside the select */
+  border: 1px solid #ccc; /* Border to match other form elements */
+  border-radius: 4px; /* Rounded corners for the select */
+  background-color: white; /* Ensure the background is white */
+} 
+
+button {
+  padding: 10px 20px;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button:hover:enabled {
+  background-color: #3700b3;
+}
+
+.content-container {
+  display: flex;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.content-container .account-flags {
+  background-color: transparent;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%;
+  /* max-width: 600px; */
+}
+
+.select-container {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.select-container select{
+  font-size: 18px;
+  padding: 10px;
+  width: 100%; /* You can adjust this if you want a specific width */
+  max-width: 300px; /* Limit the max width to ensure it's not too wide */
+  height: 40px; 
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.search-button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-button:hover {
+  background-color: #3700b3;
+}
+
+.flag-label {
+  font-weight: bold;
+  margin-right: 5px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.flag-value {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.flag-selector {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.flag-selector select{
+  font-size: 16px; /* Increase the font size */
+  padding: 10px; /* Increase the padding for better spacing */
+  width: 100%; /* Set the width to 100% of its parent container */
+  max-width: 600px; /* Set a maximum width if desired */
+  height: 40px; /* Set a fixed height */
+  border-radius: 8px; /* Add rounded corners */
+  border: 1px solid #ccc; /* Add a border */
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.flag-selector select option {
+  font-size: 16px; /* Match the font size of the select box */
+}
+
+.flag-selector button {
+  padding: 10px 10px;
+  width: 30%;
+  font-size: 14px;
+  border-radius: 8px;
+  border: none;
+  background-color: #6200ea;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+}
+
+.flag-selector button:disabled {
+  background-color: #ccc; /* Change color when disabled */
+  cursor: not-allowed;
+}
+
+.flag {
+  padding: 12px 15px; /* Top and bottom padding of 12px, left and right padding of 15px */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+  font-size: 16px; /* Adjust font size for a more professional look */
+  text-align: left;
+}
+
+.loading-indicator {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+

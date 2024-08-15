@@ -4,9 +4,13 @@ Account @ Glance is a comprehensive tool designed to provide users with a quick,
 
 ### Features
 **Multi-Table Integration:** Connects with multiple SQL Queries to pull data from various tables in Oracle Database.
+
 **Real-Time Updates:** Provides up-to-date information on account info and customer flags.
+
 **User-Friendly Dashboard:** Presents all critical account information in an easy-to-navigate dashboard.
+
 **Customizable Views:** Allows users to customize which accounts and data they wish to view on their dashboard.
+
 **Critical Notes:** Notifies users of important differences in account info, such as required purchase orders or undefined payment terms.
 
 ### Installation

@@ -22,5 +22,3 @@ Unfortunately, the user cannot setup the project locally because it deals with c
 **Backend:** Node.js, Express
 
 **Database**: OracleDB
-
-**Deployment:** Hosted on [Netlify/Vercel/GitHub Pages] (mention where it’s deployed if applicable)
